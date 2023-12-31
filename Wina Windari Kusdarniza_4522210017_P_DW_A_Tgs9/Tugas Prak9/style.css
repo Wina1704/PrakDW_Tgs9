@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+  }
+  
+  #slider {
+    margin: 20px auto;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    background-color: #e79090;
+    border: 10px solid #e79090;
+  }
+  
+  #slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: opacity 0.5s;
+  }
+  
+  #slider img.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  #sliders-controls {
+    color: black;
+    text-align: center;
+  }
+  
+  .slider-control.active {
+    font-weight: bold;
+    color: red;
+  }
